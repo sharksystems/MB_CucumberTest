@@ -1,0 +1,12 @@
+{
+  "name": "cucumber-test",
+  "type": "module",
+  "devDependencies": {
+    "@wdio/cucumber-framework": "^8.38.2",
+    "@wdio/local-runner": "^8.38.2",
+    "@wdio/spec-reporter": "^8.38.2"
+  },
+  "scripts": {
+    "wdio": "wdio run ./wdio.conf.js"
+  }
+}
